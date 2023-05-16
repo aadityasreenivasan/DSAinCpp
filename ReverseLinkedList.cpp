@@ -56,7 +56,7 @@ void listBanao(int n) //function to create linked list.
             }
             else
             {
-                cout<<"Enter the data for node "<>num;
+                cout<<"Enter the data for node "<<num;
                 frntNode->num = num;         
                 frntNode->nextptr = NULL;    
                 tmp->nextptr = frntNode;     
@@ -82,6 +82,7 @@ void reverse(node **stnode) //function to reverse linked list
 void listDhikhao()//function to display linked list
 {
     struct node *tmp;
+    int num;
     if(stnode == NULL)
     {
         cout<<"List is empty";
@@ -91,7 +92,7 @@ void listDhikhao()//function to display linked list
         tmp = stnode;
         while(tmp != NULL)
         {
-            cout<num<<"\t";   
+            cout<<num<<"\t";   
             tmp = tmp->nextptr;                 
         }
     }
