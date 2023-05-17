@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 //Display function to print values. 
 void display(int array[], int size) 
