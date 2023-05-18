@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 class MyStack {
     queue<int> q;    
 public:
