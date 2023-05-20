@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-void Reverse_Queue_using_Stack (queue &q)
+int queue[];
+void Reverse_Queue_using_Stack(queue &q)
 {
   stack<long long int> s;
   while (!q.empty ())
