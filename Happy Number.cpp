@@ -9,3 +9,13 @@ private:
         }
         return newNumber;
     }
+public:
+    bool isHappy(int n) {
+        unordered_set<int> set;
+        while(n!=1 && !set.count(n)){
+            set.insert(n);
+            n = nextNumber(n);
+        }
+        return n==1;
+    }
+};
