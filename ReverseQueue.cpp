@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int queue[];
+//This function reverses a queue using stack operations
 void Reverse_Queue_using_Stack(queue &q)
 {
   stack<long long int> s;
