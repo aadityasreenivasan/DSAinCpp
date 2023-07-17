@@ -38,4 +38,5 @@ int main(){
     cout<<"enter a number";
     cin>>A;
     cout<<helper(A);
+    return 0;
 }
