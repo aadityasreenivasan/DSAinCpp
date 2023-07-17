@@ -10,3 +10,11 @@ public:
         return s;
     }
 };
+
+int main()
+{
+    Solution s;
+    string a= s.toLowerCase("HEY I AM AADITYA");
+    cout<<a;
+    return 0;
+}
