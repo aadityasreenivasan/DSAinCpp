@@ -17,12 +17,13 @@ Explanation: All possible pairings (ignoring the ordering of elements) are:
 So the maximum possible sum is 4.
 */
 
-int arrayPairSum(vector<int>& nums) {
-        int sum=0;
-        sort(nums.begin(), nums.end());
-        for(int i=0;i<nums.size();i+=2)
-        {
-            sum+=nums[i];
-        }
-        return sum;
+int arrayPairSum(vector<int>& nums) 
+{
+    int sum=0;
+    sort(nums.begin(), nums.end());
+    for(int i=0;i<nums.size();i+=2)
+    {
+        sum+=nums[i];
     }
+    return sum;
+}
